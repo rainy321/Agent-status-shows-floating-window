@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Build outputs (exes go to GitHub Releases, not into git history)
+*.exe
+build/
+dist/
+nuitka_build/
+*.build/
+*.dist/
+*.onefile-build/
+*.spec
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime signal file / local state
+.claude_status.json
+ClaudeTrafficLight/
